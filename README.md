@@ -126,7 +126,3 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 ---
 
 Thank you for considering **TechBro's PCCOE Inventory and Event Management System**! We believe this platform can revolutionize event and inventory management at PCCOE.
-
---- 
-
-This README now includes the specific deployment link, all relevant pages, and is well-structured to ensure clarity for users and reviewers.
