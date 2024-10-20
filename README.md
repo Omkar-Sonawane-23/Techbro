@@ -1,79 +1,154 @@
-# **Project Name: [Insert Your Project Name Here]**
-
-## **Hackathon: [Hackathon Name Here]**
-
-### **Team: [Team Name Here]**
+Here’s the updated **README** with the deployment link and all other provided links integrated:
 
 ---
 
-## **Table of Contents**
-- [Project Overview](#project-overview)
-- [Problem Statement](#problem-statement)
-- [Solution Overview](#solution-overview)
-- [Key Features](#key-features)
-- [Tech Stack](#tech-stack)
-- [Setup and Installation](#setup-and-installation)
-- [Future Enhancements](#future-enhancements)
-- [Why We Should Win](#why-we-should-win)
+# **README**
 
 ---
 
-## **Project Overview**
+## **[Team ID]: 7**  
+## **[Team Name]: TechBro**
 
-Our project for [Hackathon Name] aims to solve real-world challenges in the domain of **[e.g., Education, Healthcare, Sustainability, etc.]** using cutting-edge technology and innovative solutions. Our platform, **[Insert Project Name]**, is designed to [briefly explain the core function of your solution, e.g., streamline the process of managing educational resources, improve rural healthcare access, etc.].
-
----
-
-## **Problem Statement**
-
-In today’s world, [clearly outline the problem your project is solving]. This challenge results in **[e.g., inefficiencies, lack of accessibility, or missed opportunities]** for users and stakeholders.
-
-For example:
-- **Problem 1**: [e.g., Lack of a unified platform for managing business sustainability reporting.]
-- **Problem 2**: [e.g., Post-harvest losses due to poor connectivity between farmers and retailers.]
-
-Our solution directly addresses these challenges by providing a seamless and user-friendly platform that connects all stakeholders, improves transparency, and enhances efficiency.
+### **Problem Statement Title**  
+**PCCOE Inventory and Event Management System**
 
 ---
 
-## **Solution Overview**
-
-**[Insert Project Name]** provides a **[cloud-based/web/mobile]** platform that leverages **[mention key technologies: AI, ML, real-time tracking, automation, etc.]** to solve the stated problems. Our solution focuses on:
-
-1. **Automation** – Automating [describe key automated tasks in your solution, e.g., report generation, data analytics].
-2. **Collaboration** – Enabling collaboration between [users, organizations, etc.].
-3. **Real-Time Insights** – Providing [live data, updates, or other real-time features].
-
-**How It Works**:
-- **Step 1**: [Brief description of the first step in using your solution]
-- **Step 2**: [Brief description of the second step]
-- **Step 3**: [Brief description of the third step]
+### **Description**  
+The **PCCOE Inventory and Event Management System** is a centralized solution for managing events and inventory at Pimpri Chinchwad College of Engineering (PCCOE). The platform simplifies the process of venue booking, inventory management, event creation, and approval workflows. Designed for students, faculty, and event organizers, the system provides a seamless way to manage resources, track bookings, and automate permission requests.  
 
 ---
 
-## **Key Features**
-
-- **Feature 1**: [Description of the first feature, e.g., User-friendly interface for easy navigation]
-- **Feature 2**: [Description of the second feature, e.g., Real-time data updates and notifications]
-- **Feature 3**: [Description of the third feature, e.g., Secure and scalable architecture]
-- **Feature 4**: [Description of the fourth feature, e.g., Analytics dashboard for insights]
-
----
-
-## **Tech Stack**
-
-- **Frontend**: [e.g., React, Tailwind CSS, Next.js]
-- **Backend**: [e.g., Node.js, Express.js]
-- **Database**: [e.g., MongoDB, PostgreSQL]
-- **Others**: [e.g., AWS, Firebase, etc.]
+### **Features**  
+- **Real-Time Inventory Management**: Easily track and manage resources required for events.
+- **Event Creation & Booking**: Users can create events, search for available slots, and book venues.
+- **Automated Approval System**: Streamlined requests for event approvals, with automated email notifications for updates.
+- **Searchable Event Database**: Easily search for and filter events based on various parameters.
+- **Calendar Integration**: A dynamic calendar view displaying all upcoming events and their status.
+- **Admin Approval Panel**: A dedicated section for administrators to approve or reject event requests.
+- **Responsive Design**: A user-friendly interface optimized for both mobile and desktop.
+- **404 Error Handling**: Custom error pages to manage incorrect URLs and ensure a smooth user experience.
 
 ---
 
-## **Setup and Installation**
+### **Tech Stack**  
+- **Frontend**:  
+  - Next.js  
+  - React.js  
+  - Tailwind CSS  
 
-To run the project locally, follow these steps:
+- **Backend**:  
+  - Node.js  
+  - Express.js  
 
-1. Clone the repository:
-   ```bash
-   git clone [repository-url]
-   cd [project-directory]
+- **Database**:  
+  - MongoDB (Hosted on MongoDB Atlas)
+
+- **Authentication**:  
+  - JWT (JSON Web Token)
+
+- **Cloud Deployment**:  
+  - Vercel (Frontend)  
+  - MongoDB Atlas (Database)
+
+---
+
+### **Screenshots**  
+1. **Home Page**  
+   ![Home](https://hackathon-dun-three.vercel.app/pages/home)
+
+2. **Create Event Interface**  
+   ![Create Event](https://hackathon-dun-three.vercel.app/pages/createEvent)
+
+3. **Event Search Page**  
+   ![Search Event](https://hackathon-dun-three.vercel.app/pages/eventsSearchBar)
+
+4. **Calendar View**  
+   ![Calendar](https://hackathon-dun-three.vercel.app/pages/calender)
+
+---
+
+### **Deployed URL**  
+[Live Deployed Solution](https://hackathon-dun-three.vercel.app/)
+
+---
+
+### **Additional Links**  
+Here are some key pages for functionality:
+
+- **Home**: [https://hackathon-dun-three.vercel.app/pages/home](https://hackathon-dun-three.vercel.app/pages/home)  
+- **Create Event**: [https://hackathon-dun-three.vercel.app/pages/createEvent](https://hackathon-dun-three.vercel.app/pages/createEvent)  
+- **Search Events**: [https://hackathon-dun-three.vercel.app/pages/eventsSearchBar](https://hackathon-dun-three.vercel.app/pages/eventsSearchBar)  
+- **Events**: [https://hackathon-dun-three.vercel.app/pages/Events](https://hackathon-dun-three.vercel.app/pages/Events)  
+- **Register**: [https://hackathon-dun-three.vercel.app/pages/register](https://hackathon-dun-three.vercel.app/pages/register)  
+- **Login**: [https://hackathon-dun-three.vercel.app/pages/login](https://hackathon-dun-three.vercel.app/pages/login)  
+- **Calendar**: [https://hackathon-dun-three.vercel.app/pages/calender](https://hackathon-dun-three.vercel.app/pages/calender)  
+- **Admin Approval**: [https://hackathon-dun-three.vercel.app/pages/admin/approve](https://hackathon-dun-three.vercel.app/pages/admin/approve)  
+- **404 Error Page**: [https://hackathon-dun-three.vercel.app/pages/404](https://hackathon-dun-three.vercel.app/pages/404)
+
+---
+
+### **Video URL**  
+[Link to Demo Video](https://hackathon-dun-three.vercel.app/video-demo)
+
+---
+
+### **Getting Started**  
+This is a **Next.js** project bootstrapped with `create-next-app`.
+
+To run the development server:
+
+1. **Clone the Repository**  
+```bash
+git clone https://github.com/your-repository-url.git
+cd your-repository-folder
+```
+
+2. **Install Dependencies**  
+```bash
+npm install
+```
+
+3. **Run the Development Server**  
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+4. **Open the Application**  
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+---
+
+### **Tech Optimization**  
+This project uses **next/font** to automatically optimize and load Inter, a custom Google Font.
+
+---
+
+### **Deploy on Vercel**  
+The easiest way to deploy your **Next.js** app is to use the **Vercel Platform**, created by the team behind Next.js.
+
+For detailed steps, check out the [Next.js Deployment Documentation](https://vercel.com/docs/next.js).
+
+---
+
+### **Remarks**  
+- The system is designed with scalability in mind and can be easily adapted for use by other institutions.
+- With **Next.js**, the application benefits from **server-side rendering** (SSR) for better performance and SEO optimization.
+- **Role-Based Access Control (RBAC)** is implemented to enhance security, ensuring that users have appropriate permissions based on their role.
+- **Vercel** was chosen for seamless deployment, enabling fast and efficient continuous integration.
+
+---
+
+Thank you for considering **TechBro's PCCOE Inventory and Event Management System**! We believe this platform can revolutionize event and inventory management at PCCOE.
+
+--- 
+
+This README now includes the specific deployment link, all relevant pages, and is well-structured to ensure clarity for users and reviewers.
