@@ -39,7 +39,7 @@ const LoginPage = () => {
             />
           </div>
           <div className="flex flex-col justify-center md:w-1/2 p-8 h-full">
-            <h2 className="text-2xl font-semibold text-center mb-6">
+            <h2 className="text-2xl font-semibold text-center mb-6 text-black">
               STUDENT REGISTRATION
             </h2>
             <form onSubmit={handleSubmit} className="space-y-4">
