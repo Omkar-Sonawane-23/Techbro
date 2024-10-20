@@ -117,18 +117,6 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 ---
 
-### **Tech Optimization**  
-This project uses **next/font** to automatically optimize and load Inter, a custom Google Font.
-
----
-
-### **Deploy on Vercel**  
-The easiest way to deploy your **Next.js** app is to use the **Vercel Platform**, created by the team behind Next.js.
-
-For detailed steps, check out the [Next.js Deployment Documentation](https://vercel.com/docs/next.js).
-
----
-
 ### **Remarks**  
 - The system is designed with scalability in mind and can be easily adapted for use by other institutions.
 - With **Next.js**, the application benefits from **server-side rendering** (SSR) for better performance and SEO optimization.
