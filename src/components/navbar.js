@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow-md  px-8">
+    <nav className="bg-white shadow-md  px-8 shadow-xl">
       <div className="container mx-auto flex justify-between items-center">
         <div className='flex items-center justify-center'>
           <Image src="/Images/logo.webp" alt="logo" width={100} height={100} />
