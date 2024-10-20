@@ -1,8 +1,11 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
+import Image from 'next/image';
+// import { useRouter } from 'next/router'; // Import useRouter
+import { red } from "@mui/material/colors";
 
 const LoginPage = () => {
+  // const router = useRouter(); // Initialize the router
   const [email, setEmail] = useState("");
   const [username, setUsername] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -21,6 +24,8 @@ const LoginPage = () => {
       console.log("Username:", username);
       console.log("Phone Number:", phoneNumber);
       console.log("Password:", password);
+      // Redirect to the home page after successful submission
+      // router.push('/home'); // Use router.push for redirection
     }
   };
 
@@ -28,15 +33,8 @@ const LoginPage = () => {
     <div className="flex flex-col min-h-screen w-full bg-gray-100">
       <div className="flex items-center justify-center flex-grow bg-gray-100">
         <div className="flex flex-col md:flex-row items-center bg-white rounded-lg shadow-lg overflow-hidden w-full max-w-5xl h-screen">
-          <div className="hidden md:flex md:w-1/2 bg-blue-600">
-            <Image
-              src="/images/logo.png"
-              alt="Login Visual"
-              className="object-cover w-full h-full"
-              layout="responsive"
-              width={500}
-              height={500}
-            />
+          <div className="hidden md:flex md:w-1/2">
+            <Image src="/Images/logo.webp" alt="logo" width={500} height={100} />
           </div>
           <div className="flex flex-col justify-center md:w-1/2 p-8 h-full">
             <h2 className="text-2xl font-semibold text-center mb-6 text-black">
@@ -170,6 +168,7 @@ const LoginPage = () => {
                 <button
                   type="submit"
                   className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300"
+                  onClick={() => window.location.href = "/pages/home"}
                 >
                   Sign In
                 </button>

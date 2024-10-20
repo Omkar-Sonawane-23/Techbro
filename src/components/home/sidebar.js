@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'; // Import Link from Next.js
 import { FaHome, FaInfoCircle, FaServicestack, FaEnvelope } from 'react-icons/fa'; // Importing icons from react-icons
 
 const Sidebar = () => {
@@ -10,19 +11,19 @@ const Sidebar = () => {
       <ul className="mt-10">
         <li className="flex items-center p-4 hover:bg-gray-200 cursor-pointer">
           <FaHome className="mr-3" />
-          <a href="#home">Home</a>
+          <Link href="#home">Home</Link> {/* Using Link for client-side navigation */}
         </li>
         <li className="flex items-center p-4 hover:bg-gray-200 cursor-pointer">
           <FaInfoCircle className="mr-3" />
-          <a href="#about">Calender</a>
+          <Link href="/pages/calendar">Calender</Link> {/* Fixed navigation to Calendar page */}
         </li>
         <li className="flex items-center p-4 hover:bg-gray-200 cursor-pointer">
           <FaServicestack className="mr-3" />
-          <a href="#services">Create event</a>
+          <Link href="/pages/createEvent">Create event</Link> {/* Using Link for client-side navigation */}
         </li>
         <li className="flex items-center p-4 hover:bg-gray-200 cursor-pointer">
           <FaEnvelope className="mr-3" />
-          <a href="#contact">Dashboard</a>
+          <Link href="#contact">Dashboard</Link> {/* Using Link for client-side navigation */}
         </li>
       </ul>
     </div>
