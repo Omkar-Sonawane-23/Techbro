@@ -157,6 +157,17 @@ The **PCCOE Inventory and Event Management System** is a centralized solution fo
 
 ![image](https://github.com/user-attachments/assets/f9331e74-5d9c-445f-ae55-63df16245edb)
 
+![image](https://github.com/user-attachments/assets/5ab9e51b-0724-4e74-bdee-f55584e6ebbf)
+
+![image](https://github.com/user-attachments/assets/7e083e3c-62fa-429b-aff3-6404cac81b7a)
+
+![image](https://github.com/user-attachments/assets/e8d271cf-81e2-426c-894e-6edffe993f9e)
+
+![image](https://github.com/user-attachments/assets/b1aef4af-03ec-4512-9dbf-ec6d65a98013)
+
+
+
+
 ---
 
 ### **Deployed URL**  
