@@ -44,10 +44,10 @@ const Hero = () => {
         <h1 className='text-black text-[35px] mb-5'>Department Authorities</h1>
         <div className='flex flex-wrap'>
           {authorities.map((authority, index) => (
-            <div key={index} className='text-gray-800 flex items-center w-[20rem] shadow-xl rounded-2xl m-3 p-2'>
-              <FaUser className='m-5' />
+            <div key={index} className='text-gray-800 flex items-center w-[20rem] shadow-xl rounded-2xl m-3 p-4'>
+              <FaUser className='m-5 text-3xl' />
               <div className='m-2'>
-                <h1 className='text-[20px]'>{authority.name}</h1>
+                <h1 className='text-[20px] font-semibold'>{authority.name}</h1>
                 <p className='text-[15px]'>{authority.title}</p>
               </div>
             </div>
@@ -63,7 +63,7 @@ const Hero = () => {
               <img
                 className="w-full h-48 object-cover"
                 src={event.image}
-                alt="Event"
+                alt={`${event.title} - ${event.who}`}
               />
               <div className="p-4">
                 <h2 className="text-lg text-gray-800 font-bold">{event.title}</h2>

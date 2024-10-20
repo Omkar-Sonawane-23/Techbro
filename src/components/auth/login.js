@@ -30,7 +30,7 @@ const LoginPage = () => {
         <div className="flex flex-col md:flex-row items-center bg-white rounded-lg shadow-lg overflow-hidden w-full max-w-5xl h-screen">
           <div className="hidden md:flex md:w-1/2 bg-blue-600">
             <Image
-              src="/images/logo.webp"
+              src="/images/logo.png"
               alt="Login Visual"
               className="object-cover w-full h-full"
               layout="responsive"
