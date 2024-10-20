@@ -184,9 +184,7 @@ Here are some key pages for functionality:
 - **Events**: [https://hackathon-dun-three.vercel.app/pages/Events](https://hackathon-dun-three.vercel.app/pages/Events)  
 - **Register**: [https://hackathon-dun-three.vercel.app/pages/register](https://hackathon-dun-three.vercel.app/pages/register)  
 - **Login**: [https://hackathon-dun-three.vercel.app/pages/login](https://hackathon-dun-three.vercel.app/pages/login)  
-- **Calendar**: [https://hackathon-dun-three.vercel.app/pages/calender](https
-
-://hackathon-dun-three.vercel.app/pages/calender)  
+- **Calendar**: [https://hackathon-dun-three.vercel.app/pages/calender](https://hackathon-dun-three.vercel.app/pages/calender)  
 - **Admin Approval**: [https://hackathon-dun-three.vercel.app/pages/admin/approve](https://hackathon-dun-three.vercel.app/pages/admin/approve)  
 - **404 Error Page**: [https://hackathon-dun-three.vercel.app/pages/404](https://hackathon-dun-three.vercel.app/pages/404)
 
