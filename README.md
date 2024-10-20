@@ -15,7 +15,78 @@ The **PCCOE Inventory and Event Management System** is a centralized solution fo
 
 ---
 
-### **Features**  
+### **Core Features**
+
+#### **Resource Booking**
+- **Venue Booking**: Reserve halls, classrooms, and labs for events, lectures, or activities.
+- **Automated Approval Flow**: Streamlined resource requests with approval from faculty, admin, and HOD.
+- **Conflict Detection**: Integrated calendar to prevent double bookings.
+
+#### **Event Organization**
+- **End-to-End Management**: Schedule events, select venues, manage permissions, and promote activities.
+- **Event Registration Forms**: Create and manage registration forms for student participation.
+- **Event Sorting**: Organize events by date, time, weekday, or branch.
+
+#### **Event Attendance Tracking**
+- **Self-Registration**: Students can register themselves or attendance can be marked manually.
+- **Attendance Proof Upload**: Club coordinators/admins can upload proof of attendance (photos/sheets).
+
+#### **Inventory Management**
+- **Real-Time Tracking**: Monitor event-related materials such as stationery and equipment.
+- **Stock Level Updates**: Automated requests triggered when inventory falls below set thresholds.
+- **Department-Wise Tracking**: Manage resource requests and fulfillments by department.
+
+#### **Permission Requests**
+- **Automated Workflow**: Streamlined permission requests from department heads, faculty, and admin.
+- **Printable Approval Forms**: Auto-generated forms for necessary approvals (e.g., HOD approval).
+
+#### **Communication Tools**
+- **Automated Notifications**: Updates on event changes, resource bookings, and registration confirmations.
+- **Messaging Feature**: Allows club heads to contact faculty or management directly.
+- **Email Validation**: Ensures only college domain email addresses (e.g., abc@pccoepune.org) are used for registration.
+
+#### **Report Generation**
+- **Inventory Usage Reports**: Generate reports on material usage, event participation, and resource utilization.
+- **Detailed Analytics**: Insights on event success and resource consumption.
+- **Automatic Receipts**: Send receipts for event fees to students.
+
+#### **Integrated Calendar System**
+- **Shared Calendar**: Displays booked and available venues to prevent scheduling conflicts.
+- **Event Filtering**: Filter events by department, date, or time.
+
+#### **Event Marketing Tools**
+- **Email Templates**: Ready-to-use templates for promoting events within the community.
+- **Social Media Integration**: Tools for announcing and promoting events.
+
+#### **Multi-User Role Support**
+- **Role-Based Dashboards**: Separate access for students, event organizers, faculty, and admins.
+- **Admin Panel**: Oversee system activity, approve bookings, and manage permissions.
+
+#### **Analytics Dashboard**
+- **Participation Insights**: Track event participation and branch-wise inventory usage.
+- **Data-Driven Decision Making**: Inform future planning and resource allocation.
+
+#### **Feedback and Rating Mechanism**
+- **Collect Feedback**: Gather event ratings and feedback via email to enhance future events.
+
+#### **Gamified Event Participation**
+- **Points-Based System**: Reward students for participation and contributions in events.
+
+#### **Certificate Distribution**
+- **Direct Distribution**: Club leads can send certificates to participants post-event.
+
+#### **Attendance Management**
+- **Multiple Options**: Manage attendance through self-registration, uploaded roll numbers, or attendance proof.
+- **Exclusive College Email Sign-Up**: Only students and staff with college domain emails can register or participate.
+
+#### **Bonus Features**
+- **Automated Registration Forms**: Simplified registration with attendance reports.
+- **Printable Forms**: Option for hard copy records if needed.
+- **Event Sorting and Notifications**: Sort events by date or branch with auto-generated notifications.
+
+---
+
+### **Features**
 - **Real-Time Inventory Management**: Easily track and manage resources required for events.
 - **Event Creation & Booking**: Users can create events, search for available slots, and book venues.
 - **Automated Approval System**: Streamlined requests for event approvals, with automated email notifications for updates.
@@ -49,8 +120,7 @@ The **PCCOE Inventory and Event Management System** is a centralized solution fo
 
 ---
 
-UI Design Screenshots :
-
+### **UI Design Screenshots**
 ![image](https://github.com/user-attachments/assets/3c5c3736-117f-4912-b622-bf9fa7161703)
 
 ![image](https://github.com/user-attachments/assets/aba1005d-b7c7-45dd-aa34-3c641f1d527a)
@@ -87,7 +157,6 @@ UI Design Screenshots :
 
 ![image](https://github.com/user-attachments/assets/f9331e74-5d9c-445f-ae55-63df16245edb)
 
-
 ---
 
 ### **Deployed URL**  
@@ -104,14 +173,16 @@ Here are some key pages for functionality:
 - **Events**: [https://hackathon-dun-three.vercel.app/pages/Events](https://hackathon-dun-three.vercel.app/pages/Events)  
 - **Register**: [https://hackathon-dun-three.vercel.app/pages/register](https://hackathon-dun-three.vercel.app/pages/register)  
 - **Login**: [https://hackathon-dun-three.vercel.app/pages/login](https://hackathon-dun-three.vercel.app/pages/login)  
-- **Calendar**: [https://hackathon-dun-three.vercel.app/pages/calender](https://hackathon-dun-three.vercel.app/pages/calender)  
+- **Calendar**: [https://hackathon-dun-three.vercel.app/pages/calender](https
+
+://hackathon-dun-three.vercel.app/pages/calender)  
 - **Admin Approval**: [https://hackathon-dun-three.vercel.app/pages/admin/approve](https://hackathon-dun-three.vercel.app/pages/admin/approve)  
 - **404 Error Page**: [https://hackathon-dun-three.vercel.app/pages/404](https://hackathon-dun-three.vercel.app/pages/404)
 
 ---
 
 ### **Video URL**  
-[Link to Demo Video]([https://hackathon-dun-three.vercel.app/video-demo](https://drive.google.com/drive/u/0/folders/1vS2hLReSVoBxEeis1hpjjbq_JI3nnqX6))
+[Link to Demo Video](https://drive.google.com/drive/u/0/folders/1vS2hLReSVoBxEeis1hpjjbq_JI3nnqX6)
 
 ---
 
@@ -148,7 +219,3 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 - With **Next.js**, the application benefits from **server-side rendering** (SSR) for better performance and SEO optimization.
 - **Role-Based Access Control (RBAC)** is implemented to enhance security, ensuring that users have appropriate permissions based on their role.
 - **Vercel** was chosen for seamless deployment, enabling fast and efficient continuous integration.
-
----
-
-Thank you for considering **TechBro's PCCOE Inventory and Event Management System**! We believe this platform can revolutionize event and inventory management at PCCOE.
