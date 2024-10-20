@@ -49,18 +49,13 @@ The **PCCOE Inventory and Event Management System** is a centralized solution fo
 
 ---
 
-### **Screenshots**  
-1. **Home Page**  
-   ![Home](https://hackathon-dun-three.vercel.app/pages/home)
+UI Design Screenshots :
 
-2. **Create Event Interface**  
-   ![Create Event](https://hackathon-dun-three.vercel.app/pages/createEvent)
+![image](https://github.com/user-attachments/assets/3c5c3736-117f-4912-b622-bf9fa7161703)
 
-3. **Event Search Page**  
-   ![Search Event](https://hackathon-dun-three.vercel.app/pages/eventsSearchBar)
+![image](https://github.com/user-attachments/assets/aba1005d-b7c7-45dd-aa34-3c641f1d527a)
 
-4. **Calendar View**  
-   ![Calendar](https://hackathon-dun-three.vercel.app/pages/calender)
+
 
 ---
 
