@@ -1,7 +1,3 @@
-Here’s the updated **README** with the deployment link and all other provided links integrated:
-
----
-
 # **README**
 
 ---
